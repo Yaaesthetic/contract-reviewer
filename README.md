@@ -64,11 +64,5 @@ The console prints the structured review (Clause analyses, Risk summary, Recomme
 
 ## Security Tips
 - Never commit real API keys.  
-- Move hard-coded keys to environment variables or a `.env` file.
-
-### Quick one-liner to install everything (if you prefer)
-```bash
-pip install agno pydantic openai pypdf rich lancedb
-```
 
 You’re now ready to run a complete AI-driven contract review.
